@@ -198,7 +198,7 @@ body {
 .pluses-text {
   color: var(--second-color);
   font-size: 14px;
-  line-height: 1.17;
+  line-height: 1.71;
   letter-spacing: 0.03em;
 }
 /* -----------------------------Чим ми займаємось, Наша команда----------------- */
@@ -216,10 +216,6 @@ body {
   display: block;
 }
 
-.work-title {
-  margin-bottom: 50px;
-}
-
 .team {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -228,6 +224,8 @@ body {
 
 .work-title,
 .team-title {
+  margin-bottom: 50px;
+
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
@@ -245,7 +243,12 @@ body {
 
 .team-foto {
   display: block;
-  margin-bottom: 30px;
+}
+
+.team-sign {
+  padding-top: 30px;
+  padding-bottom: 30px;
+
 }
 
 .team-name {
@@ -259,8 +262,6 @@ body {
 }
 
 .team-pos {
-  margin-bottom: 30px;
-
   color: var(--second-color);
   font-size: 16px;
   line-height: 1.18;
@@ -371,7 +372,6 @@ body {
 .contact-mail,
 .contact-tel {
   display: block;
-  margin-bottom: 9px;
 
   color: var(--contact-color);
   font-style: normal;
@@ -379,6 +379,11 @@ body {
   line-height: 1.71;
   text-decoration: none;
 }
+
+.contact-mail {
+  margin-bottom: 9px;
+}
+
 .contact-mail:hover,
 .contact-mail:focus,
 .contact-tel:hover,
